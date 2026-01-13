@@ -1,4 +1,4 @@
-* [📚 指南首页 (Guide)](README.md)
+* [🏠 首页](docs/00_introduction.md)
 
 * **📖 章节列表**
   * [0. 快速入门](docs/00_introduction.md)

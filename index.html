@@ -13,26 +13,28 @@
 <body>
     <div id="app"></div>
     <script>
-        window.docsify = {
+        window.$docsify = {
             name: 'LangChain RAG 指南',
-            repo: '',
+            repo: 'https://github.com/xiaohu31/LangChain_RAG_Guide',
+            loadSidebar: true,
+            auto2top: true,
+            subMaxLevel: 3,
             homepage: 'docs/00_introduction.md',
             alias: {
                 '/.*/_sidebar.md': '/_sidebar.md',
                 '/': 'docs/00_introduction.md'
             },
-            loadSidebar: true,
-            subMaxLevel: 3,
-            auto2top: true,
-            copyCode: {
-                buttonText: '复制',
-                errorText: '错误',
-                successText: '已复制'
+            pagination: {
+                previousText: '上一章节',
+                nextText: '下一章节',
             }
         }
     </script>
-    <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+    <script src="//cdn.jsdelivr.net/npm/docsify@latest/lib/docsify.min.js"></script>
     <script src="//cdn.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/prismjs@latest/components/prism-bash.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/prismjs@latest/components/prism-python.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/docsify-pagination@latest/dist/docsify-pagination.min.js"></script>
 </body>
 
 </html>
