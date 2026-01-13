@@ -1,4 +1,4 @@
-## 一、RAG 核心流程
+
 
 RAG (Retrieval-Augmented Generation) 的核心思想是：先检索相关信息，再辅助大模型生成答案。
 
