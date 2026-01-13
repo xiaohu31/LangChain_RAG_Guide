@@ -24,7 +24,7 @@ def split_readme():
         ("二、详细实现步骤", "02_step_by_step_guide.md"),
         ("三、高级功能与进阶", "03_advanced_rag.md"),
         ("四、2026 年 RAG 前沿技术", "04_cutting_edge_2026.md"),
-        ("五、RAG 性能调优 Checklist", "05_performance_checklist.md"),
+        ("五、总结：RAG 性能调优 Checklist (2026 更新版)", "05_performance_checklist.md"),
         ("六、权威参考与官方文档链接", "06_references.md")
     ]
     
